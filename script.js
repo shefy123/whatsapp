@@ -67,7 +67,7 @@ let friends = [
     time : "yesterday",
     number :"<i class='fas fa-phone'></i>0333-6454554",
     email : "<i class='far fa-envelope'></i>sobia@gmail.com",
-    title : '"Well behaved women rarely make history"',
+    title : '"Well behaved Women rarely make history"',
     image : "img7.png",
     mesageinfo :"not received"
 },
@@ -97,7 +97,7 @@ let friends = [
     time : "yesterday",
     number :"<i class='fas fa-phone'></i>0345-95225155",
     email : "<i class='far fa-envelope'></i>kanwal@gmail.com",
-    title : "forgotten is forgiven!!",
+    title : "Forgotten is Forgiven!!",
     image : "img10.png",
     mesageinfo :""
 }
