@@ -1,0 +1,118 @@
+body {
+    margin: 16px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.image {
+    background-image: url(images/img1.png);
+    height: 60px;
+    width: 60px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1000px;
+    margin-right:16px;
+}
+
+.person-item {
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid #e1e4e8;
+
+}
+.main:hover {
+    color: orange;
+}
+.main {
+    width: 300px;
+}
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.scroll {
+    overflow-y: scroll;
+    height: 100vh;
+    cursor: pointer;
+}
+.name-time {
+    display: flex;
+    flex-direction: flex-start;
+    color: #a5a7ac;
+}
+.fa, .far, .fas  {
+    padding: 6px;
+}
+.name {
+    color: black;
+}
+.card {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    border: none;
+   
+}
+#friends-details {
+    margin:auto;
+
+
+}
+#sec-img {
+    /* background-image: url(images/img1.png); */
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+#sec-name,#sec-number,#sec-email,#sec-title  {
+   text-align: center;
+}
+
+.fa-check-double {
+    color:#52cbfb;
+
+}
+
+.fa-phone {
+    color: green;
+    padding: 16px;
+    font-size: 30px;
+}
+.fa-envelope {
+    padding: 16px;
+    font-size: 30px;
+    color: #985699;
+}
+#defult {
+    display: flex;
+}
+#sec-name,#sec-number,
+#sec-email,#sec-title  {
+
+   font-weight: bold;
+}
+#sec-name {
+    font-size: 30px;
+    margin: 16px;
+}
+.fa-check-double {
+    color:#52cbfb;
+
+}
+
+.fa-phone {
+    color: green;
+    padding: 16px;
+    font-size: 30px;
+}
+.fa-envelope {
+    padding: 16px;
+    font-size: 30px;
+    color: #985699;
+}
+
+.fa-smile {
+    color: red;
+}
