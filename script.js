@@ -128,7 +128,7 @@ function initializer() {
                 <div class="name-time">
                  <div class="name-massege">
                     <p class="name">${friends[i].name}</p>   
-                    <p class="msg">${tick}${friends[i].massage}</p>
+                    <p class="msg">${tick}${friends[i].massage.slice(0, 80) + "..."}</p>
                  </div>   
                  <p class="time">${friends[i].time}</p>
                  </div>
